@@ -25,3 +25,5 @@ album_release_date varchar (50),
 artist_name varchar (50)
 )
 
+-- Change name of album table column name
+ALTER TABLE albums RENAME COLUMN album_date TO album_release_date;
